@@ -1,7 +1,7 @@
 ember-goodpoint
 ==============================================================================
 
-[Short description of the addon.]
+SVG arrows with contextual components.
 
 Installation
 ------------------------------------------------------------------------------
@@ -14,7 +14,7 @@ ember install ember-goodpoint
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+Check out the documentation and examples at https://k-fish.github.io/ember-goodpoint
 
 
 Contributing
