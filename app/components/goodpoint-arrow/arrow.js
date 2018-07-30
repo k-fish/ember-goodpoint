@@ -1,0 +1,1 @@
+export { default } from 'ember-goodpoint/components/goodpoint-arrow/arrow';

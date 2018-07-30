@@ -9,12 +9,14 @@
 {{#docs-demo as |demo|}}
   {{#demo.example name='docs-demo-basic.hbs'}}
     {{#goodpoint-arrow as |arrow|}}
+      <div class="flex">
       {{#arrow.from}}
-        <div>Draw an arrow from here</div>
+        <div class="card">Draw an arrow from here</div>
       {{/arrow.from}}
       {{#arrow.to}}
-        <div>To here</div>
+        <div class="card">To here</div>
       {{/arrow.to}}
+      </div>
     {{/goodpoint-arrow}}
   {{/demo.example}}
 {{/docs-demo}}

@@ -1,0 +1,11 @@
+{{#if arrow.connection}}
+  <svg 
+    style={{svgStyle}} 
+    width="{{arrow.connection.offsetBoundingBox.width}}"
+    height="{{arrow.connection.offsetBoundingBox.height}}"
+    viewBox="0 0 {{arrow.connection.offsetBoundingBox.width}} {{arrow.connection.offsetBoundingBox.height}}"
+    version = "1.1"
+  >
+    {{component styleComponent arrow=arrow}}
+  </svg>
+{{/if}}
